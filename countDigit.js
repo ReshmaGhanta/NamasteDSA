@@ -1,15 +1,14 @@
 function countDigits(n) {
     let count = 0;
-    let arr = n.toString().split("").map(Number);
 
-    for (let i = 0; i < arr.length; i++){
-          count=count+arr[i]
-    }
-
+  while (n > 0) {
+      n = Math.floor(n / 10);
+      count++;
+   }
     return count;
 }
 
-let num = 25;
+let num = 259;
 
 let result = countDigits(num);
 console.log(result)
