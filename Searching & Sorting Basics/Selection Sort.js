@@ -17,3 +17,6 @@ function selectionSort(arr,n){
 
 let result= selectionSort(arr,n);
 console.log(result);
+
+// Time Complexity: O(n^2)
+// Time Complexity: O(1)

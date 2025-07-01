@@ -17,3 +17,6 @@ function insertionSort(arr,n){
 
 let result= insertionSort(arr,n);
 console.log(result);
+
+// Time Complexity: O(n^2)
+// Time Complexity: O(1)

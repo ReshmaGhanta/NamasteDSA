@@ -19,3 +19,6 @@ function bubbleSort(arr,n){
 
 let result= bubbleSort(arr,n);
 console.log(result);
+
+// Time Complexity: O(n^2)
+// Time Complexity: O(1)
