@@ -10,13 +10,15 @@ function merge(left, right) {
     let res = [], i = 0, j = 0;
     while (i < left.length && j < right.length) {
         if (left[i] < right[j]) {
-            res.push(left[i++]);
+            res.push(left[i]);
+            i++;
         } else {
-            res.push(right[j++]);
+            res.push(right[j]);
+            j++;
         }
     }
     return [...res, ...left.slice(i), ...right.slice(j)];
 }
     
 // Time Complexity: O(nlogn)
-// Time Complexity: O(1)
+// Space Complexity: O(1)
