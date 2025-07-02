@@ -18,8 +18,8 @@
 1. Create empty array `result`
 2. Set pointers: `i = 0`, `j = 0`
 3. While both arrays have elements:
-   - If `left[i] < right[j]` → `result.push(left[i++])`
-   - Else → `result.push(right[j++])`
+   - If `left[i] < right[j]` → `result.push(left[i]); i++`
+   - Else → `result.push(right[j]); j++`
 4. Append remaining items:
    - `result.push(...left.slice(i))`
    - `result.push(...right.slice(j))`
