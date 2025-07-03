@@ -20,8 +20,8 @@ var middleNode = function(head) {
     return slow;
 };
 
-// Time Complexity	O(n)
-// Space Complexity	O(1)
+//  Time Complexity	O(n)
+//  Space Complexity O(1)
 
 
 //Approach 1: (Brute force)

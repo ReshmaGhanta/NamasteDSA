@@ -2,6 +2,7 @@
  * @param {ListNode} head
  * @return {boolean}
  */
+
 // Approach 2: Using fast slow pointers (Floyd's cycle finding algorithm)
 var hasCycle = function(head) {
     let slow=head;
@@ -15,7 +16,6 @@ var hasCycle = function(head) {
     }
     return false;
 };
-
 
 // Time Complexity	O(n)
 // Space Complexity	O(1)
