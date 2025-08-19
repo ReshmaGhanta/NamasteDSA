@@ -29,7 +29,7 @@ for (let [char, freq] of myMap) {
     return vowelFreq+consonantFreq;
 };
 // Time Complexity: O(n)
-// Space Complexity: O(n)
+// Space Complexity: O(1)
 
 
 
